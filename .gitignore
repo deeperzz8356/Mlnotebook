@@ -1,0 +1,48 @@
+# Python cache / bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter auto-generated files
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# VS Code settings
+.vscode/
+
+# OS junk
+Thumbs.db
+.DS_Store
+
+# Build folders
+build/
+dist/
+*.egg-info/
+
+# Model weights, checkpoints, or logs
+*.pth
+*.pt
+*.h5
+*.hdf5
+*.ckpt
+
+# Dataset / output folders (you will upload selectively)
+data/
+datasets/
+logs/
+results/
+models/
+
+# Large binary artifacts
+*.zip
+*.tar
+*.tar.gz
+*.npz
+
+# Notebook auto outputs (optional — keeps Git history clean)
+*.ipynb~*
